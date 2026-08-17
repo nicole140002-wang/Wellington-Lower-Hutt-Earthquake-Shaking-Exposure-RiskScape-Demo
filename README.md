@@ -61,4 +61,48 @@ Features whose representative points fell outside both study areas were excluded
 
 <img width="750" height="476" alt="image" src="https://github.com/user-attachments/assets/1d20f630-f730-41fc-8f4d-15db6ed4215c" />
 
-### 3.  
+### 3. ArcGIS Pro hazard sampling
+Building representative points were sampled against the MMI raster using ArcGIS Pro.
+Each building received a modelled MMI value representing the shaking intensity at its representative location.
+The resulting building-level MMI values ranged approximately from 5.23 to 5.98 across the study area.
+Two analytical thresholds were then used to compare relatively higher shaking exposure:
+- MMI ≥ 5.6
+- MMI ≥ 5.8
+These thresholds are used for relative comparison within this portfolio project and are not official damage or risk classifications.
+
+### 4. Building exposure analysis
+Exposure was assessed in two ways.
+#### Building count exposure
+For each Territorial Authority, the analysis calculated:
+- total number of buildings;
+- mean and median MMI;
+- number and percentage of buildings with MMI ≥ 5.6; and
+- number and percentage of buildings with MMI ≥ 5.8.
+#### Building footprint exposure
+Building footprint area was also used to avoid treating a small shed and a large commercial building as equivalent exposure units.  
+For each Territorial Authority, the analysis calculated:
+- total building footprint area;
+- footprint area exposed to MMI ≥ 5.6;
+- footprint area exposed to MMI ≥ 5.8; and
+- corresponding percentages of total building footprint area.
+
+## RiskScape Workflow
+
+The same building footprints and MMI hazard raster were used to construct a **RiskScape 1.14** model.
+
+The workflow consisted of:
+
+```text
+Building footprints
+        +
+Kaikōura MMI raster
+        ↓
+RiskScape spatial sampling
+        ↓
+Building-level MMI
+        ↓
+Custom consequence function
+        ↓
+Shaking exposure class
+```
+
