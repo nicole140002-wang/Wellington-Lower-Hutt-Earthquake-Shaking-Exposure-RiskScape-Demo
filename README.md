@@ -54,7 +54,8 @@ LINZ Building Outlines were:
 
 Geometry QA/QC identified several non-simple polygons, primarily self-intersections and short segments. These were repaired before further processing.
 Buildings were assigned to Wellington City or Lower Hutt City using their representative point and the Territorial Authority boundaries.
-Features whose representative points fell outside both study areas were excluded from the final exposure population.  
+Features whose representative points fell outside both study areas were excluded from the final exposure population.    
+
 <img width="750" height="476" alt="image" src="https://github.com/user-attachments/assets/1d20f630-f730-41fc-8f4d-15db6ed4215c" />
 
 ### 3.  
