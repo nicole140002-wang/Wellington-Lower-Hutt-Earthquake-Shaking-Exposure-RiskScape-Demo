@@ -31,10 +31,30 @@ The analysis focuses on:
 ## Data
 | Dataset | Source | Role |
 |---|---|---|
-| 2016 Kaikōura Earthquake MMI | GeoNet / Earth Sciences New Zealand | Earthquake shaking hazard |
-| NZ Building Outlines | LINZ | Building exposure |
+| [2016 Kaikōura Earthquake MMI](https://shakinglayers.geonet.org.nz/html/quakes/2016p858000/latest) | GeoNet / Earth Sciences New Zealand | Earthquake shaking hazard |
+| [NZ Building Outlines](https://data.linz.govt.nz/layer/101290-nz-building-outlines/) | LINZ | Building exposure |
 | Territorial Authority boundaries | Stats NZ | Wellington City and Lower Hutt City study areas |
 
-**Analysis CRS:** NZGD2000 / New Zealand Transverse Mercator 2000 (EPSG:2193)
+**Analysis CRS:** NZGD2000 / New Zealand Transverse Mercator 2000 (**EPSG:2193**)
 
-**Final analysis population:** 134,495 buildings across Wellington City and Lower Hutt City.
+**Final analysis population:** 134,495 buildings across Wellington City and Lower Hutt City.  
+
+## Method  
+### 1. Hazard preparation  
+The 2016 Kaikōura earthquake MMI raster was projected to NZTM2000 / EPSG:2193 in ArcGIS Pro.
+A TA-clipped raster was initially tested, but raster cell alignment near irregular administrative boundaries created NoData values for some boundary buildings. The final workflow therefore retained the full projected MMI surface and used the building dataset to define the Wellington–Lower Hutt analysis extent.  
+
+### 2. Building exposure preparation
+LINZ Building Outlines were:
+- projected to EPSG:2193;
+- checked for invalid geometry;
+- repaired where required;
+- assigned geometry-derived building footprint area; and
+- converted to interior representative points for the ArcGIS Pro sampling workflow.
+
+Geometry QA/QC identified several non-simple polygons, primarily self-intersections and short segments. These were repaired before further processing.
+Buildings were assigned to Wellington City or Lower Hutt City using their representative point and the Territorial Authority boundaries.
+Features whose representative points fell outside both study areas were excluded from the final exposure population.  
+<img width="750" height="476" alt="image" src="https://github.com/user-attachments/assets/1d20f630-f730-41fc-8f4d-15db6ed4215c" />
+
+### 3.  
