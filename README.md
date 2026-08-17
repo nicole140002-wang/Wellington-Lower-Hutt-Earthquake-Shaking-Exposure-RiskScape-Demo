@@ -138,20 +138,18 @@ MMI difference = RiskScape MMI − ArcGIS Pro MMI
 ```
 ### Validation Summary
 
-| Metric | Result |
-|---|---:|
-| Buildings compared | 134,495 |
-| Mean absolute MMI difference | 0.000020 |
-| Median absolute MMI difference | 0.000002 |
-| Standard deviation | 0.001642 |
-| Maximum absolute difference | 0.280092 |
-| Absolute difference > 0.01 | 23 buildings |
-| Absolute difference > 0.05 | 18 buildings |
-| Different classification at MMI 5.6 threshold | 8 buildings |
-| Different classification at MMI 5.8 threshold | 2 buildings |
+<div align="center">
 
-The very small mean and median differences indicate strong agreement between the two independent sampling workflows.
-The small number of larger differences is associated with differences in how polygon-based and representative-point sampling interact with raster cells, particularly for buildings near raster cell boundaries.
+<img width="750" src="https://github.com/user-attachments/assets/8181b85c-587f-47b4-a4e8-9ae927389f79" />
+
+<br>
+
+<em>Figure 3. Summary of cross-validation results between RiskScape and ArcGIS Pro building-level MMI sampling.</em>
+
+</div>
+
+
+
 
 ## Results
 
