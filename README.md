@@ -336,7 +336,7 @@ The small number of larger differences is associated with differences in how pol
 </div>
 
 <!-- Final result map: keep this as a normal Markdown image rather than centering it -->
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/52727119-0134-4ea4-b10c-52e5926cab18" />
 ![Final shaking exposure map](FINAL_MAP_URL_HERE)
 
 The results show a clear difference in the spatial distribution of shaking exposure between the two study areas.
