@@ -105,4 +105,36 @@ Custom consequence function
         ↓
 Shaking exposure class
 ```
+A simple screening-level consequence function was used:
 
+| Consequence | MMI range | Interpretation |
+|---:|---|---|
+| 0 | < 5.6 | Lower relative shaking exposure |
+| 1 | 5.6 to < 5.8 | Elevated relative shaking exposure |
+| 2 | ≥ 5.8 | Higher relative shaking exposure |
+
+These values represent **relative shaking exposure classes only**. They are **not structural damage states**.
+
+## Model Validation  
+RiskScape hazard sampling was independently compared with the ArcGIS Pro raster-extraction workflow across all **134,495 buildings**.  
+The comparison used:
+```text
+MMI difference = RiskScape MMI − ArcGIS Pro MMI
+```
+### Validation Summary
+
+| Metric | Result |
+|---|---:|
+| Buildings compared | 134,495 |
+| Mean absolute MMI difference | 0.000020 |
+| Median absolute MMI difference | 0.000002 |
+| Standard deviation | 0.001642 |
+| Maximum absolute difference | 0.280092 |
+| Absolute difference > 0.01 | 23 buildings |
+| Absolute difference > 0.05 | 18 buildings |
+| Different classification at MMI 5.6 threshold | 8 buildings |
+| Different classification at MMI 5.8 threshold | 2 buildings |
+
+The very small mean and median differences indicate strong agreement between the two independent sampling workflows.
+
+The small number of larger differences is associated with differences in how polygon-based and representative-point sampling interact with raster cells, particularly for buildings near raster cell boundaries.
