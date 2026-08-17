@@ -41,12 +41,18 @@ The analysis focuses on:
 
 ## Method  
 ### 1. Hazard preparation  
-The 2016 Kaikōura earthquake MMI raster was projected to NZTM2000 / EPSG:2193 in ArcGIS Pro.
-A TA-clipped raster was initially tested, but raster cell alignment near irregular administrative boundaries created NoData values for some boundary buildings. The final workflow therefore retained the full projected MMI surface and used the building dataset to define the Wellington–Lower Hutt analysis extent.  
+The 2016 Kaikōura earthquake MMI raster was projected to NZTM2000 / EPSG:2193 in ArcGIS Pro.  
+A TA-clipped raster was initially tested, but raster cell alignment near irregular administrative boundaries created NoData values for some boundary buildings. The final workflow therefore retained the full projected MMI surface and used the building dataset to define the Wellington–Lower Hutt analysis extent.
 
-<img width="750" height="529" alt="image" src="https://github.com/user-attachments/assets/b4ffbba6-c526-4170-91ab-3b3812f3aa0b" />
+<div align="center">
 
-Figure 1. Projected Kaikōura earthquake MMI surface used for the analysis.
+<img width="750" src="https://github.com/user-attachments/assets/b4ffbba6-c526-4170-91ab-3b3812f3aa0b" alt="Projected Kaikōura earthquake MMI surface" />
+
+<br>
+
+<em>Figure 1. Projected Kaikōura earthquake MMI surface used for the analysis.</em>
+
+</div>
 
 ### 2. Building exposure preparation
 LINZ Building Outlines were:
