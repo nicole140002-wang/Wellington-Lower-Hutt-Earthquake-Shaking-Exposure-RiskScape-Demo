@@ -44,6 +44,9 @@ The analysis focuses on:
 The 2016 Kaikōura earthquake MMI raster was projected to NZTM2000 / EPSG:2193 in ArcGIS Pro.
 A TA-clipped raster was initially tested, but raster cell alignment near irregular administrative boundaries created NoData values for some boundary buildings. The final workflow therefore retained the full projected MMI surface and used the building dataset to define the Wellington–Lower Hutt analysis extent.  
 
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/f9121018-5970-4229-b071-805c57b41aa4" />
+
+
 ### 2. Building exposure preparation
 LINZ Building Outlines were:
 - projected to EPSG:2193;
