@@ -66,7 +66,15 @@ Geometry QA/QC identified several non-simple polygons, primarily self-intersecti
 Buildings were assigned to Wellington City or Lower Hutt City using their representative point and the Territorial Authority boundaries.
 Features whose representative points fell outside both study areas were excluded from the final exposure population.    
 
-<img width="750" height="476" alt="image" src="https://github.com/user-attachments/assets/1d20f630-f730-41fc-8f4d-15db6ed4215c" />
+<div align="center">
+
+<img width="750" src="https://github.com/user-attachments/assets/032da463-b017-4f64-a3ae-4d79cce4cd0b" alt="Projected Kaikōura earthquake MMI surface" />
+
+<br>
+
+<em>Figure 2. Building footprints and interior representative points generated for building-level MMI sampling in ArcGIS Pro.</em>
+
+</div>
 
 ### 3. ArcGIS Pro hazard sampling
 Building representative points were sampled against the MMI raster using ArcGIS Pro.
