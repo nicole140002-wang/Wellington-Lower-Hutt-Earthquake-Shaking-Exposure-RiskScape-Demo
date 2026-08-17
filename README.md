@@ -289,6 +289,7 @@ The small number of larger differences is associated with differences in how pol
 
 ### Final Results
 
+<div align="center">
 | Metric | Lower Hutt City | Wellington City |
 |---|---:|---:|
 | Total buildings | 57,039 | 77,456 |
@@ -297,6 +298,7 @@ The small number of larger differences is associated with differences in how pol
 | Buildings with MMI ≥ 5.8 | 32.89% | 5.17% |
 | Building footprint area with MMI ≥ 5.6 | 70.92% | 36.83% |
 | Building footprint area with MMI ≥ 5.8 | 34.91% | 7.02% |
+</div>
 
 ### Exposure comparison
 
@@ -304,7 +306,7 @@ The percentage-based exposure metrics are visualised below to highlight differen
 
 <div align="center">
 
-<img width="850" src="YOUR_IMAGE_URL" alt="Shaking exposure comparison between Lower Hutt City and Wellington City" />
+<img width="850" src="https://github.com/user-attachments/assets/7ddac64d-b6bb-4892-a08b-632b19f123e2" alt="Shaking exposure comparison between Lower Hutt City and Wellington City" />
 
 <br>
 
