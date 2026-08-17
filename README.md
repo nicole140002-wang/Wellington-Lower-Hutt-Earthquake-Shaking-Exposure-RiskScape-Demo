@@ -290,14 +290,49 @@ The small number of larger differences is associated with differences in how pol
 ### Final Results
 
 <div align="center">
-| Metric | Lower Hutt City | Wellington City |
-|---|---:|---:|
-| Total buildings | 57,039 | 77,456 |
-| Mean MMI | 5.704 | 5.557 |
-| Buildings with MMI ≥ 5.6 | 68.58% | 34.86% |
-| Buildings with MMI ≥ 5.8 | 32.89% | 5.17% |
-| Building footprint area with MMI ≥ 5.6 | 70.92% | 36.83% |
-| Building footprint area with MMI ≥ 5.8 | 34.91% | 7.02% |
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Lower Hutt City</th>
+      <th>Wellington City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total buildings</td>
+      <td>57,039</td>
+      <td>77,456</td>
+    </tr>
+    <tr>
+      <td>Mean MMI</td>
+      <td>5.704</td>
+      <td>5.557</td>
+    </tr>
+    <tr>
+      <td>Buildings with MMI ≥ 5.6</td>
+      <td>68.58%</td>
+      <td>34.86%</td>
+    </tr>
+    <tr>
+      <td>Buildings with MMI ≥ 5.8</td>
+      <td>32.89%</td>
+      <td>5.17%</td>
+    </tr>
+    <tr>
+      <td>Building footprint area with MMI ≥ 5.6</td>
+      <td>70.92%</td>
+      <td>36.83%</td>
+    </tr>
+    <tr>
+      <td>Building footprint area with MMI ≥ 5.8</td>
+      <td>34.91%</td>
+      <td>7.02%</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 ### Exposure comparison
