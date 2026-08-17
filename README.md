@@ -68,14 +68,13 @@ Features whose representative points fell outside both study areas were excluded
 
 <div align="center">
 
-<img width="750" src="https://github.com/user-attachments/assets/7873775a-3ee2-4a10-980b-452ca5dad991" alt="Projected Kaikōura earthquake MMI surface" />
+<img width="750" src="https://github.com/user-attachments/assets/3df61516-c218-4fdd-a6b2-dd0a7c6d5260" alt="Projected Kaikōura earthquake MMI surface" />
 
 <br>
 
 <em>Figure 2. Building footprints and interior representative points generated for building-level MMI sampling in ArcGIS Pro.</em>
 
 </div>
-
 
 ### 3. ArcGIS Pro hazard sampling
 Building representative points were sampled against the MMI raster using ArcGIS Pro.
