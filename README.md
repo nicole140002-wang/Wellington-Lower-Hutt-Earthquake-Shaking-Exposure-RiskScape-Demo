@@ -289,53 +289,28 @@ The small number of larger differences is associated with differences in how pol
 
 ### Final Results
 
+| Metric | Lower Hutt City | Wellington City |
+|---|---:|---:|
+| Total buildings | 57,039 | 77,456 |
+| Mean MMI | 5.704 | 5.557 |
+| Buildings with MMI ≥ 5.6 | 68.58% | 34.86% |
+| Buildings with MMI ≥ 5.8 | 32.89% | 5.17% |
+| Building footprint area with MMI ≥ 5.6 | 70.92% | 36.83% |
+| Building footprint area with MMI ≥ 5.8 | 34.91% | 7.02% |
+
+### Exposure comparison
+
+The percentage-based exposure metrics are visualised below to highlight differences between Lower Hutt City and Wellington City.
+
 <div align="center">
 
-<table>
-  <thead>
-    <tr>
-      <th>Metric</th>
-      <th>Lower Hutt City</th>
-      <th>Wellington City</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Total buildings</td>
-      <td align="right">57,039</td>
-      <td align="right">77,456</td>
-    </tr>
-    <tr>
-      <td>Mean MMI</td>
-      <td align="right">5.704</td>
-      <td align="right">5.557</td>
-    </tr>
-    <tr>
-      <td>Buildings with MMI ≥ 5.6</td>
-      <td align="right">68.58%</td>
-      <td align="right">34.86%</td>
-    </tr>
-    <tr>
-      <td>Buildings with MMI ≥ 5.8</td>
-      <td align="right">32.89%</td>
-      <td align="right">5.17%</td>
-    </tr>
-    <tr>
-      <td>Building footprint area with MMI ≥ 5.6</td>
-      <td align="right">70.92%</td>
-      <td align="right">36.83%</td>
-    </tr>
-    <tr>
-      <td>Building footprint area with MMI ≥ 5.8</td>
-      <td align="right">34.91%</td>
-      <td align="right">7.02%</td>
-    </tr>
-  </tbody>
-</table>
+<img width="850" src="YOUR_IMAGE_URL" alt="Shaking exposure comparison between Lower Hutt City and Wellington City" />
+
+<br>
+
+<em>Figure 4. Comparison of building-count and building-footprint-area exposure at MMI ≥ 5.6 and MMI ≥ 5.8 in Lower Hutt City and Wellington City.</em>
 
 </div>
-
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/52727119-0134-4ea4-b10c-52e5926cab18" />
 
 The results show a clear difference in the spatial distribution of shaking exposure between the two study areas.
 
