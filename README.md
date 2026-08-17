@@ -136,5 +136,21 @@ MMI difference = RiskScape MMI − ArcGIS Pro MMI
 | Different classification at MMI 5.8 threshold | 2 buildings |
 
 The very small mean and median differences indicate strong agreement between the two independent sampling workflows.
-
 The small number of larger differences is associated with differences in how polygon-based and representative-point sampling interact with raster cells, particularly for buildings near raster cell boundaries.
+
+## Results
+
+### Final Results
+
+| Metric | Lower Hutt City | Wellington City |
+|---|---:|---:|
+| Total buildings | 57,039 | 77,456 |
+| Mean MMI | 5.704 | 5.557 |
+| Buildings with MMI ≥ 5.6 | 68.58% | 34.86% |
+| Buildings with MMI ≥ 5.8 | 32.89% | 5.17% |
+| Building footprint area with MMI ≥ 5.6 | 70.92% | 36.83% |
+| Building footprint area with MMI ≥ 5.8 | 34.91% | 7.02% |
+
+The results show a clear difference in the spatial distribution of shaking exposure between the two study areas.
+Lower Hutt had a substantially larger proportion of both buildings and building footprint area exposed to the higher modelled MMI ranges than Wellington City.
+The RiskScape results were highly consistent with the independently derived ArcGIS Pro results, supporting the reliability of the hazard-sampling workflow.
