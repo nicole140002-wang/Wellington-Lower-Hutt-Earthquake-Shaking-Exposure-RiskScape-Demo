@@ -154,3 +154,44 @@ The small number of larger differences is associated with differences in how pol
 The results show a clear difference in the spatial distribution of shaking exposure between the two study areas.
 Lower Hutt had a substantially larger proportion of both buildings and building footprint area exposed to the higher modelled MMI ranges than Wellington City.
 The RiskScape results were highly consistent with the independently derived ArcGIS Pro results, supporting the reliability of the hazard-sampling workflow.
+
+## Tools & Skills Demonstrated
+
+### ArcGIS Pro
+
+- raster preparation and reprojection;
+- vector projection and geometry QA/QC;
+- geometry repair;
+- Feature To Point;
+- raster value extraction;
+- Spatial Join;
+- building footprint calculations;
+- Summary Statistics;
+- exposure classification and thematic mapping.
+
+### RiskScape
+
+- RiskScape Core Engine 1.14;
+- project configuration and bookmarks;
+- hazard and exposure layer configuration;
+- raster hazard sampling;
+- custom expression-based consequence functions;
+- event-impact modelling;
+- model output validation.
+
+### Risk Modelling & QA
+
+- hazard–exposure data integration;
+- building-level exposure modelling;
+- threshold-based exposure analysis;
+- count- and area-based exposure metrics;
+- cross-platform model validation;
+- investigation of spatial-sampling outliers;
+- transparent treatment of modelling assumptions and limitations.
+
+## Limitations
+- MMI represents modelled shaking intensity and does not by itself determine building damage.
+- Detailed building vulnerability attributes were not available in the LINZ Building Outlines dataset.
+- The MMI thresholds of 5.6 and 5.8 were defined for comparative analysis within this project and are not official risk or damage thresholds.
+- Building footprint area is used as an exposure indicator and does not represent building replacement value, occupancy, floor area, or economic loss.
+- Small differences between ArcGIS Pro and RiskScape results can occur because the two workflows use different spatial-sampling approaches.
