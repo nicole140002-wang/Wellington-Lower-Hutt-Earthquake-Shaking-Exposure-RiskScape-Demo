@@ -212,78 +212,62 @@ These values represent **relative shaking exposure classes only**. They are **no
 
 RiskScape hazard sampling was independently compared with the ArcGIS Pro raster-extraction workflow across all **134,495 buildings**.
 
-The comparison used:
-
-```text
-MMI difference = RiskScape MMI − ArcGIS Pro MMI
-```
+The comparison used: **MMI difference = RiskScape MMI − ArcGIS Pro MMI**
 
 ### Validation Summary
-
-<div align="center">
-
-<img width="750" src="https://github.com/user-attachments/assets/8181b85c-587f-47b4-a4e8-9ae927389f79" alt="RiskScape and ArcGIS Pro validation summary" />
-
-<br>
-
-<em>Figure 3. Summary of cross-validation results between RiskScape and ArcGIS Pro building-level MMI sampling.</em>
-
-</div>
 
 <div align="center">
 
 <table>
   <thead>
     <tr>
-      <th>Metric</th>
-      <th>Result</th>
+      <th align="left">Metric</th>
+      <th align="center">Result</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Buildings compared</td>
-      <td align="right">134,495</td>
+      <td align="center">134,495</td>
     </tr>
     <tr>
       <td>Mean absolute MMI difference</td>
-      <td align="right">0.000020</td>
+      <td align="center">0.000020</td>
     </tr>
     <tr>
       <td>Median absolute MMI difference</td>
-      <td align="right">0.000002</td>
+      <td align="center">0.000002</td>
     </tr>
     <tr>
       <td>Standard deviation</td>
-      <td align="right">0.001642</td>
+      <td align="center">0.001642</td>
     </tr>
     <tr>
-      <td>Maximum absolute difference</td>
-      <td align="right">0.280092</td>
+      <td>Maximum absolute MMI difference</td>
+      <td align="center">0.280092</td>
     </tr>
     <tr>
-      <td>Absolute difference &gt; 0.01</td>
-      <td align="right">23 buildings</td>
+      <td>Absolute MMI difference &gt; 0.01</td>
+      <td align="center">23 buildings</td>
     </tr>
     <tr>
-      <td>Absolute difference &gt; 0.05</td>
-      <td align="right">18 buildings</td>
+      <td>Absolute MMI difference &gt; 0.05</td>
+      <td align="center">18 buildings</td>
     </tr>
     <tr>
       <td>Different classification at MMI 5.6 threshold</td>
-      <td align="right">8 buildings</td>
+      <td align="center">8 buildings</td>
     </tr>
     <tr>
       <td>Different classification at MMI 5.8 threshold</td>
-      <td align="right">2 buildings</td>
+      <td align="center">2 buildings</td>
     </tr>
   </tbody>
 </table>
 
 </div>
 
-The very small mean and median differences indicate strong agreement between the two independent sampling workflows.
-
-The small number of larger differences is associated with differences in how polygon-based and representative-point sampling interact with raster cells, particularly for buildings near raster cell boundaries.
+The mean and median absolute differences were extremely small, indicating strong agreement between the two independent sampling workflows. Only **23 of 134,495 buildings** had an absolute MMI difference greater than 0.01, while classification differences were limited to **8 buildings at the MMI 5.6 threshold** and **2 buildings at the MMI 5.8 threshold**.  
 
 ## Results
 
