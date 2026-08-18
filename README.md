@@ -159,19 +159,19 @@ The same building footprints and projected MMI hazard raster were used to constr
 
 The workflow consisted of:
 
-```text
-Building footprints
-        +
-Kaikōura MMI raster
-        ↓
-RiskScape spatial sampling
-        ↓
-Building-level MMI
-        ↓
-Custom consequence function
-        ↓
-Shaking exposure class
-```
+<p align="center">
+  <code>Building footprints</code><br>
+  <strong>+</strong><br>
+  <code>Projected Kaikōura MMI raster</code><br>
+  ↓<br>
+  <code>RiskScape spatial sampling</code><br>
+  ↓<br>
+  <code>Building-level MMI</code><br>
+  ↓<br>
+  <code>Custom consequence function</code><br>
+  ↓<br>
+  <code>Shaking exposure class</code>
+</p>
 
 A simple screening-level consequence function was used:
 
