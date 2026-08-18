@@ -16,7 +16,7 @@ The workflow combines GIS-based hazard and building exposure analysis in ArcGIS 
 
 <br>
 
-<em>Figure 5. Building-level relative shaking exposure classes for Wellington City and Lower Hutt City derived from the 2016 Kaikōura earthquake MMI surface.</em>
+<em>Figure 1. Building-level relative shaking exposure classes for Wellington City and Lower Hutt City derived from the 2016 Kaikōura earthquake MMI surface.</em>
 
 </div>
 
@@ -92,7 +92,7 @@ A TA-clipped raster was initially tested, but raster cell alignment near irregul
 
 <br>
 
-<em>Figure 1. Projected Kaikōura earthquake MMI surface used for the analysis.</em>
+<em>Figure 2. Projected Kaikōura earthquake MMI surface used for the analysis.</em>
 
 </div>
 
@@ -118,7 +118,7 @@ Features whose representative points fell outside both study areas were excluded
 
 <br>
 
-<em>Figure 2. Building footprints and interior representative points generated for building-level MMI sampling in ArcGIS Pro.</em>
+<em>Figure 3. Building footprints and interior representative points generated for building-level MMI sampling in ArcGIS Pro.</em>
 
 </div>
 
@@ -337,7 +337,7 @@ The percentage-based exposure metrics are visualised below to highlight differen
 
 <br>
 
-<em>Figure 3. Comparison of building-count and building-footprint-area exposure at MMI ≥ 5.6 and MMI ≥ 5.8 in Lower Hutt City and Wellington City.</em>
+<em>Figure 4. Comparison of building-count and building-footprint-area exposure at MMI ≥ 5.6 and MMI ≥ 5.8 in Lower Hutt City and Wellington City.</em>
 
 </div>
 
