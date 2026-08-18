@@ -10,9 +10,17 @@ The workflow combines GIS-based hazard and building exposure analysis in ArcGIS 
 
 ## Final Output
 
-Final map to be added.
+<div align="center">
 
-The final output will compare building-level shaking exposure across Wellington City and Lower Hutt City and summarise differences in both building counts and exposed building footprint area.
+<img width="800" src="https://github.com/user-attachments/assets/b5833050-907b-4349-a865-c5b9bdf7041a" alt="Building-level shaking exposure comparison for Wellington City and Lower Hutt City" />
+
+<br>
+
+<em>Figure 5. Building-level relative shaking exposure classes for Wellington City and Lower Hutt City derived from the 2016 Kaikōura earthquake MMI surface.</em>
+
+</div>
+
+
 
 ## What This Project Demonstrates
 
