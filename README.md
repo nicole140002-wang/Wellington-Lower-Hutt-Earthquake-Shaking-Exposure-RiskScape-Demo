@@ -155,7 +155,7 @@ For each Territorial Authority, the analysis calculated:
 
 ## RiskScape Workflow
 
-The same building footprints and MMI hazard raster were used to construct a **RiskScape 1.14** model.
+The same building footprints and projected MMI hazard raster were used to construct a RiskScape 1.14 model.
 
 The workflow consisted of:
 
@@ -212,7 +212,7 @@ These values represent **relative shaking exposure classes only**. They are **no
 
 RiskScape hazard sampling was independently compared with the ArcGIS Pro raster-extraction workflow across all **134,495 buildings**.
 
-The comparison used: **MMI difference = RiskScape MMI − ArcGIS Pro MMI**
+The comparison used: MMI difference = RiskScape MMI − ArcGIS Pro MMI
 
 ### Validation Summary
 
@@ -329,15 +329,15 @@ The percentage-based exposure metrics are visualised below to highlight differen
 
 <br>
 
-<em>Figure 4. Comparison of building-count and building-footprint-area exposure at MMI ≥ 5.6 and MMI ≥ 5.8 in Lower Hutt City and Wellington City.</em>
+<em>Figure 3. Comparison of building-count and building-footprint-area exposure at MMI ≥ 5.6 and MMI ≥ 5.8 in Lower Hutt City and Wellington City.</em>
 
 </div>
 
-The results show a clear difference in the spatial distribution of shaking exposure between the two study areas.
+The results show a clear difference in shaking exposure between the two study areas.
 
 Lower Hutt had a substantially larger proportion of both buildings and building footprint area exposed to the higher modelled MMI ranges than Wellington City.
 
-The RiskScape results were highly consistent with the independently derived ArcGIS Pro results, supporting the reliability of the hazard-sampling workflow.
+The RiskScape results were highly consistent with the independently derived ArcGIS Pro results, providing an independent cross-check of the hazard-sampling workflow.
 
 ## Tools & Skills Demonstrated
 
